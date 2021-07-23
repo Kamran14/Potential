@@ -37,7 +37,7 @@ testCar.py::Test::test_stop PASSED                                              
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <testsuites>
-    <testsuite errors="0" failures="0" hostname="KamDesktop" name="pytest" skipped="0" tests="5" time="0.028" timestamp="2021-07-23T01:23:44.839209">
+    <testsuite errors="0" failures="0" hostname="KamDesktop" name="pytest" skipped="0" tests="5" time="0.028" timestamp="2021-07-23T01:22:44.839209">
         <testcase classname="testCar.Test" name="test_isMoving" time="0.001" />
         <testcase classname="testCar.Test" name="test_isNotMoving" time="0.001" />
         <testcase classname="testCar.Test" name="test_moveForward" time="0.001" />

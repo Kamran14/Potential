@@ -65,7 +65,7 @@ From here go to your working Jenkins directory that you specified for YourPath a
 ```docker
 FROM jenkins/jenkins:lts-jdk11
 USER root
-RUN apt-get update && apt-get install -y python3 pip3
+RUN apt-get update && apt-get install -y python3 python3-pip
 RUN pip3 install -r requirements.txt
 ```
 Once you are done, open up terminal and write the following in the directory specified in **YourPath**: 

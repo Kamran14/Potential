@@ -5,6 +5,7 @@ class Direction(enum.Enum):
     REVERSE = 2
     STOPPED = 3
 
+
 class Car:
     direction = Direction.STOPPED
     
